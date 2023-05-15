@@ -1,0 +1,20 @@
+<div class="section_header">
+    <div id="docroot"></div>
+    Document Roots
+</div>
+
+<div class="content_section_text">
+    <p>
+        By default, Ubuntu does not allow access through the web browser to
+        <em>any</em> file outside of those located in <tt>/var/www</tt>,
+        <a href="http://httpd.apache.org/docs/2.4/mod/mod_userdir.html" rel="nofollow">public_html</a>
+        directories (when enabled) and <tt>/usr/share</tt> (for web
+        applications). If your site is using a web document root
+        located elsewhere (such as in <tt>/srv</tt>) you may need to whitelist your
+        document root directory in <tt>/etc/apache2/apache2.conf</tt>.
+    </p>
+    <p>
+        The default Ubuntu document root is <tt>/var/www/html</tt>. You
+        can make your own virtual hosts under /var/www.
+    </p>
+</div>
